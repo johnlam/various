@@ -1,4 +1,4 @@
-###Some of my silly saxo scripts and an xchat logparser
+###Some of my silly [saxo](https://github.com/sbp/saxo) scripts and an xchat logparser
 
 #### For the logparser
 ```python
