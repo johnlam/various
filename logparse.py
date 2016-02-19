@@ -5,6 +5,9 @@ from IRCNicks import IRCNicks
 STDDATE = 16
 
 def start(logfile):
+    ''' An Xchat log parser that stores
+    nicknames as keys and quotes as a list of strings"
+
     f = open(logfile,"r")
     ircnicks = IRCNicks()
 
