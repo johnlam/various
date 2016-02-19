@@ -24,6 +24,6 @@ def start(logfile):
             text = phelp.gettext(line)
             ircnicks.addquote(nick,text)
             
-    return ircnicks
     f.close()
+    return ircnicks
 
