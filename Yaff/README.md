@@ -1,8 +1,8 @@
 ###Yaff Yet Another Feed fingy
 ## Works on Py2.7 < and Py3.4 < , requires 
-## requests
-## bs4
-## validators
+## [requests](http://docs.python-requests.org/en/master/)
+## [bs4](http://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+## [validators](https://pypi.python.org/pypi/validators/)
 
 #### Example
 # Yaff will try to find AND check for feeds (rss and atom even non-compliant) 
