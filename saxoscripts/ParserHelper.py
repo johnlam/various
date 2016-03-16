@@ -13,9 +13,13 @@ class ParserHelper(object):
 
     @staticmethod
     def scrollback(line):
-        if line[0] == '[' and line[9] == ']':
-            return line.replace(line[0:10],'')
-        return line
+        try:
+            if line[0] == '[' and line[9] == ']':
+                return line.replace(line[0:10],'')
+            return line
+        except:
+            print 'something went wrong',line
+            return line
 
 
     @staticmethod
